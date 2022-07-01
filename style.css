@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "Exo 2"
+}
+
+.link {
+    color: white;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100vw;
+    height:130vh;
+    background-color: #333;
+    /* background: linear-gradient(rgba(224, 255, 255, 0.6), rgba(224, 255, 255, 0.6)), url("./images/main-background-122bc1bfb760adf00f23673b14678126.jpg") */
+     background: url("./images/main-background-122bc1bfb760adf00f23673b14678126.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    max-height:100%;
+   background-color: rgba(13, 13, 13, 0.3);
+   padding: 10px;
+    border-radius: 5px;
+    box-shadow: #000 1px 0px 0px 0px;
+ color: white;
+
+}
+
+
+.octo img {
+    width: 150px;
+    height: auto;
+    margin-right: 2rem;
+}
+
+
+
+#main {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:30px;
+opacity: 0;
+    
+}
+
+#main.hide {
+opacity:1;
+transition: opacity 2s;
+}
+
+
+
+
+.start-btn {
+    color:rgb(107, 32, 107);
+    background-color: #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    outline-style: none;
+    padding: 0.2rem 2rem ;
+    font-size: 2rem;
+    margin-top: 500px;
+    }
+
+.start-btn:hover {
+    color: rgb(220, 220, 220);
+    background-color: #000;
+    
+}
+
+.play-btn {
+    font-size: 2rem;
+}
+.center {
+display: flex;
+justify-content: center;
+align-self: center;
+}
+
+.btn-grid {
+display: grid;
+grid-template-columns:repeat(1,auto);
+gap:10px;
+margin-top: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    padding: 5px;
+    text-transform: ;
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: rgb(21, 20, 21,0.4);
+    
+}
+
